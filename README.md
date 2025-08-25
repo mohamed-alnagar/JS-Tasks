@@ -6,7 +6,7 @@ Whether you're a beginner learning the language or revisiting the fundamentals, 
 
 ---
 
-## 🧠 What You'll Learn
+## 🧠 Fundamentals of JS
 
 - ✅ Variables, data types, and operators
 - ✅ Conditional logic and loops
