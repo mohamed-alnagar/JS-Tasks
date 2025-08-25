@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <script>console.log(number1)</script>
+    <script>console.log(number2)</script>
+    <script>console.log(number3)</script> -->
+    
+
+    <script src="External.js"></script>
+
+    <!-- <script>console.log(number1)</script>
+    <script>console.log(number2)</script>
+    <script>console.log(number3)</script> -->
+
+    <script>
+        console.log("a. number1 + number2 =", number1 + number2); // 5.9
+        console.log("b. flag + number1 =", flag + number1); // true -> 1 => 1 + 3 = 4
+        console.log("c. firstName + flag =", firstName + flag); // "Emantrue"
+        console.log("d. number1 + firstName =", number1 + firstName); // "3Eman"
+        console.log("e. number1 + number2 + firstName =", number1 + number2 + firstName); // 5.9 + "Eman" => "5.9Eman"
+        console.log("f. number1 + firstName + number2 =", number1 + firstName + number2); // "3Eman2.9"
+        console.log("g. number1 * flag =", number1 * flag); // 3 * 1 => 3
+        console.log("h. number1 / lastName =", number1 / lastName); // 3 / "Mohamed" => NaN
+        console.log(`i. My full name is: ${firstName} ${middleName} ${lastName}`);
+        let values = [number1, number2, number3, firstName, middleName, lastName, flag];
+        console.table(values);
+    </script>
+
+    <script>
+    
+        // let input = prompt("Enter Number");
+        // if(input%2==0)
+        // alert("It'\s' Even");
+        // else 
+        // alert("It's Odd");
+
+        // for(let i =1;i<=10;i++){
+        //     console.log(i);
+            
+        // }
+
+        // let input = prompt("Enter Number ");
+        // if(input<0)
+        // alert("It's Negative");
+        // else if(input>0)
+        // alert("It's Positive");
+        // else
+        // alert("It's ZERO")
+
+        // multiplication
+        // let num3 = 4;
+        // console.log("Multiplication :", num3);
+        // for (let i = 1; i <= 10; i++) {
+        //     console.log(`${num3} x ${i} = ${num3 * i}`);
+        // }
+        // Days 
+        let dayNumber=prompt("Enter Your Day");
+        let dayName="";
+        switch(parseInt(dayNumber)){
+            case 1: dayName="Sunday"; break;
+            case 2: dayName="Monday"; break;
+            case 3: dayName="Tuesday"; break;
+            case 4: dayName="Wednesday"; break;
+            case 5: dayName="Thursday"; break;
+            case 6: dayName="Friday"; break;
+            default : dayName="Invalid Day";
+        
+        }
+        console.log(" Day name is", dayName);
+
+         // to can know is day weekend or week day
+        if (dayNumber === 1 || dayNumber === 7) {
+            console.log("It's a Weekend");
+        } else if (dayNumber >= 2 && dayNumber <= 6) {
+            console.log(" It's a Weekday");
+        } else {
+            console.log(" Invalid day number");
+        }
+
+        
+
+    
+    
+    </script>
+
+</body>
+</html>
